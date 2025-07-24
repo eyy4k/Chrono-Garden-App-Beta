@@ -1,1 +1,38 @@
+:root {
+    --primary-green: #39d47a;
+    --primary-blue: #1e90ff;
+    --dark-bg: #454545;
+    --text-light: #e5e7eb;
+    --text-dark: #1f2937;
+    --text-muted: #9ca3af;
+    --border-color: rgba(57, 212, 122, 0.15);
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: grey;
+
+    color: white;
+
+
+}
+
+
+
+.title {
+    font-size: 2.4rem;
+    color: var(--primary-green);
+    text-align: center;
+    margin-top: 20px;
+}
